@@ -65,13 +65,13 @@ git clone https://github.com/your-username/hotel-management-system.git
 cd hotel-management-system
 
 # Install dependencies
-pip install -r requirements.txt
+pip install mysql-connector-python  # or relevant library
 
-# Initialize the database
-python setup_db.py
+# Set up the database tables
+python tables.py
 
 # Run the application
-python main.py
+python cproj.py
 ```
 
 ---
@@ -81,19 +81,8 @@ python main.py
 ```
 hotel-management-system/
 │
-├── main.py               # Application entry point
-├── setup_db.py           # Database initialization script
-├── requirements.txt      # Python dependencies
-│
-├── modules/
-│   ├── customers.py      # Guest management logic
-│   ├── rooms.py          # Room and booking operations
-│   ├── billing.py        # Invoicing and payments
-│   └── reports.py        # Data reporting utilities
-│
-├── database/
-│   ├── schema.sql        # Table definitions
-│   └── hotel.db          # SQLite database file (auto-generated)
+├── cproj.py              # Main application logic
+├── tables.py             # Database table definitions and setup
 │
 └── README.md
 ```
