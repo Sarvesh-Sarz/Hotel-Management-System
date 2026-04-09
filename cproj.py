@@ -4,7 +4,7 @@ from datetime import date
 
 
 global conn,cursor
-conn = mysql.connector.connect(host='localhost',database='hotel',user='root',password='root')
+conn = mysql.connector.connect(host='----',database='----',user='---',password='----')
 cursor = conn.cursor()
 
 def clear(a=45):
