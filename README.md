@@ -1,10 +1,10 @@
-# 🏨 Hotel Management System
+#  Hotel Management System
 
 > A database-driven hotel administration application built with **Python** and **SQL** — designed to streamline daily operations, reduce manual work, and keep guest records secure and organized.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **Hotel Management System** is a full-featured administrative tool that empowers hotel staff to manage reservations, billing, room availability, and guest history — all from a single, intuitive interface. By combining Python's programming power with SQL's robust data management, the system delivers a reliable and scalable solution for modern hospitality operations.
 
